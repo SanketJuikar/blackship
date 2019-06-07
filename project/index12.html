@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html ng-app="myModule">
+<head>
+    <title>Project page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"> </script>
+    <script src="./controller.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.core.js"></script>
+    
+</head>
+<body>
+    <h1>Make It</h1>
+    <div ng-controller="myController">
+            <div ng-repeat="k in employee">
+                    FirstName:{{k.firstName}}
+            </div> 
+        
+            <div ng-repeat="x in employee">
+
+                        
+                <div>age:{{x.age}}</div>
+        
+                                        
+                                
+            </div>  
+
+            
+       
+
+</body>
+</html>
